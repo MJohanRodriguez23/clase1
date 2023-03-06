@@ -1,8 +1,9 @@
 body {
     background-color: black;
+    color: aliceblue;
 }
 
-img {
-    margin-left: 550px;
-    margin-top: 150px;
+tr:hover {
+    background-color: aqua;
 }
+
