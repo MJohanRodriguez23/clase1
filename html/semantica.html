@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Etiquetas HTML de texto -->
+
+    <p>Hola, esto es un pequeño <strong>ejemplo</strong>.</p>
+
+    <!-- Fragmentos de texto  -->
+
+    <strong>Hola</strong>
+    <em>Hola</em>
+    <span>Hola</span>
+    <cite>Hola</cite>
+
+    <!-- Modificación de significado -->
+
+    <p>El resultado de 24<sup>2</sup> es el valor de X<sub>a</sub>.</p>
+
+    <p>
+        <q cite="http://www.imdb.com/title/tt0468569/">
+          Hay hombres que solo quieren ver arder el mundo.
+        </q>
+    </p>
+
+    <p>
+        El término <dfn><abbr title="Kilómetro">Km</abrr></dfn> es una unidad de longitud.
+    </p>
+
+    <br> <!-- esto es un salto de linea -->
+
+    <!-- Aspectos informáticos -->
+
+    <p>Pulsa las teclas <kbd>CTRL</kbd>+<kbd>T</kbd>...</p>
+
+    <style>
+
+    kbd {
+    font-family: "Victor Mono", monospace;
+    padding: 2px 6px;
+    background: #eee;
+    border: 3px solid #bbb;
+    border-top-width: 1px;
+    border-bottom: 3px solid #777;
+    }
+
+    </style>
+
+    <p>
+    <time datetime="2001-01-04">4 de Enero</time>
+    <data value="ESDLA3">El retorno del Rey</data>
+    </p>
+
+    <!-- Etiquetas de edición -->
+
+    <ins></ins>  <!-- Fragmento de texto o información añadida a posteriori de la publicación inicial. -->
+    <del></del>  <!-- Fragmento de texto o información eliminada a posteriori de la publicación inicial. -->
+
+
+    <!-- Etiquetas HTML de agrupación -->
+
+    <div>
+        <p>Hola, esto es un primer párrafo de ejemplo.</p>
+        <p>Y esto, es un segundo párrafo de ejemplo.</p>
+    </div>
+
+    <!-- Agrupaciones -->
+
+      <blockquote cite="http://es.wikiquote.org/wiki/Fight_Club">
+        <p>La primera regla del Club de la Lucha es: Nadie habla sobre el Club de la Lucha.</p>
+        <footer>
+          <cite class="author">Tyler Durden</cite> en
+          <cite class="title">El Club de la Lucha</cite>
+        </footer>
+      </blockquote>
+
+      <!-- Listas -->
+
+      <ul>
+        <li>Primer ítem.</li>
+        <li>Segundo ítem.</li>
+        <li>Tercer ítem.</li>
+      </ul>
+
+      <ol start="c" type="a" reversed>
+        <li value="1">Primer ítem.</li>
+        <li value="2">Segundo ítem.</li>
+        <li value="3">Tercer ítem.</li>
+      </ol>
+
+      <!-- Listas de descripciones -->
+
+      <dl>
+        <dt>Gallina</dt>
+        <dd>Ave doméstica del orden de las galliformes.</dd>
+        <dd>Cobarde, pusilánime.</dd>
+      </dl>
+
+      <!-- Ilustraciones (figuras) -->
+
+      <figure>
+        <img src="http://lenguajehtml.com/img/html5-logo.png" alt="Logotipo de HTML5" />
+        <figcaption>Logotipo oficial del lenguaje de marcas HTML5.</figcaption>
+      </figure>
+
+      <!-- Enlaces o hipervínculos -->
+
+      <ul>
+        <li><a rel="author" href="http://www.emezeta.com/">Emezeta</a></li>
+        <li><a href="http://lenguajecss.com/" target="_blank">LenguajeCSS</a></li>
+        <li><a href="http://pagina.com/documento.pdf" download="A-38.pdf">PDF</a></li>
+        <li><a href="http://pagina.com/documento-en.pdf" hreflang="en">PDF</a></li>
+      </ul>
+
+      <!-- Protocolo -->
+
+    http://	<!-- Protocolo de transferencia de hipertexto. Es el que se usa habitualmente para páginas webs. -->
+    https:// <!-- Protocolo seguro de transferencia de hipertexto. Usado para cifrar información sensible. -->
+    ftp://	<!-- Protocolo de transferencia de ficheros. Similar a HTTP, pero orientado a enviar ficheros. -->
+    whatsapp://	<!-- Protocolo de WhatsApp. Se puede interactuar con WhatsApp si el usuario lo tiene instalado. -->
+    //	<!-- Protocolo utilizado en la URL actual. Utiliza http o https según la página original.-->
+
+    <!-- Etiquetas HTML de sección -->
+
+    <div class="articulo">
+        <h1>Título del artículo</h1>
+        <p class="intro">Pequeña introducción.</p>
+        <p class="contenido">Aquí va el texto del artículo en cuestión con sus detalles.</p>
+        <p class="pie">Escrito por Manz</p>
+      </div>
+
+
+      <article>
+        <header>
+          <h1>Título del artículo</h1>
+          <p class="intro">Pequeña introducción.</p>
+        </header>
+        <p class="contenido">Aquí va el texto del artículo en cuestión con sus detalles.</p>
+        <footer>
+          <p>Escrito por Manz.</p>
+        </footer>
+      </article>
+
+      <!-- Etiquetas semánticas -->
+
+      <article class="post">
+        <p>Este sería el texto del artículo.</p>
+        <article class="comentario">
+          <p>Aquí iría el texto del comentario.</p>
+        </article>
+      </article>
+
+      <!-- Etiquetas HTML de tablas -->
+
+      <!-- Tablas básicas -->
+
+      <table>
+        <!-- Cabecera -->
+        <tr>
+          <th>Título columna 1</th>
+          <!-- Celda de cabecera de la columna 1 -->
+          <th>Título columna 2</th>
+          <!-- Celda de cabecera de la columna 2 -->
+          <th>Título columna 3</th>
+          <!-- Celda de cabecera de la columna 3 -->
+        </tr>
+        <!-- Primera fila -->
+        <tr>
+          <td>Celda 1x1</td>
+          <!-- Primera celda de la primera fila -->
+          <td>Celda 2x1</td>
+          <!-- Segunda celda de la primera fila -->
+          <td>Celda 3x1</td>
+          <!-- Tercera celda de la primera fila -->
+        </tr>
+        <!-- Segunda fila -->
+        <tr>
+          <td>Celda 1x2</td>
+          <!-- Primera celda de la segunda fila -->
+          <td>Celda 2x2</td>
+          <!-- Segunda celda de la segunda fila -->
+          <td>Celda 3x2</td>
+          <!-- Tercera celda de la segunda fila -->
+        </tr>
+      </table>
+
+      <style>
+        /* Cambios sobre la propia tabla */
+        table {
+          border-collapse: collapse;
+          border: 1px solid #ccc;
+        }
+        /* Espacio de relleno en celdas y cabeceras */
+        td,
+        th {
+          padding: 10px;
+        }
+        /* Modificación de estilos en cabeceras */
+        th {
+          background: #000;
+          color: #fff;
+          text-transform: uppercase;
+        }
+        /* Modificación de estilos en celdas */
+        td {
+          text-align: center;
+          border-bottom: 2px solid #111;
+          color: #333;
+          font-size: 18px;
+        }
+      </style>
+      
+      <table>
+        <!-- Cabecera -->
+        <tr>
+          <th>Título columna 1</th>
+          <!-- Celda de cabecera de la columna 1 -->
+          <th>Título columna 2</th>
+          <!-- Celda de cabecera de la columna 2 -->
+          <th>Título columna 3</th>
+          <!-- Celda de cabecera de la columna 3 -->
+        </tr>
+        <!-- Primera fila -->
+        <tr>
+          <td>Celda 1x1</td>
+          <!-- Primera celda de la primera fila -->
+          <td>Celda 2x1</td>
+          <!-- Segunda celda de la primera fila -->
+          <td>Celda 3x1</td>
+          <!-- Tercera celda de la primera fila -->
+        </tr>
+        <!-- Segunda fila -->
+        <tr>
+          <td>Celda 1x2</td>
+          <!-- Primera celda de la segunda fila -->
+          <td>Celda 2x2</td>
+          <!-- Segunda celda de la segunda fila -->
+          <td>Celda 3x2</td>
+          <!-- Tercera celda de la segunda fila -->
+        </tr>
+      </table>
+
+      <!-- Combinar celdas  -->
+
+      <style>
+        td {
+          border: 1px solid black;
+        }
+        </style>
+        
+        <table>
+          <!-- ... -->
+          <tr>
+            <td colspan="3">Datos adicionales</td>
+            <!-- Abarca 3 celdas -->
+          </tr>
+          <!-- Primera fila -->
+          <tr>
+            <td>Celda 1x1</td>
+            <!-- Primera celda de la primera fila -->
+            <td>Celda 2x1</td>
+            <!-- Segunda celda de la primera fila -->
+            <td>Celda 3x1</td>
+            <!-- Tercera celda de la primera fila -->
+          </tr>
+          <!-- ... -->
+        </table>
+
+        <!-- Organización de tablas -->
+
+        <table>
+            <!-- Table footer: pie de la tabla (tfoot) -->
+            <tfoot>
+              <tr>
+                <td>Pie de tabla 1</td>
+                <td>Pie de tabla 2</td>
+              </tr>
+            </tfoot>
+            <!-- Table header: cabecera de la tabla (thead) -->
+            <thead>
+              <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+              </tr>
+            </thead>
+            <!-- Table body: cuerpo de la tabla (tbody) -->
+            <tbody>
+              <tr>
+                <td>Celda 1</td>
+                <td>Celda 2</td>
+              </tr>
+            </tbody>
+            <!-- Leyenda o título de la tabla -->
+            <caption>
+              Título de la tabla
+            </caption>
+          </table>
+
+          <!-- Agrupación de columnas -->
+
+          <table>
+            <tr>
+              <th>Columna 1</th>
+              <th>Columna 2</th>
+              <th>Columna 3</th>
+            </tr>
+            <tr>
+              <td>Data 1</td>
+              <td>Data 2</td>
+              <td>Data 3</td>
+            </tr>
+            <tr>
+              <td>Data 4</td>
+              <td>Data 5</td>
+              <td>Data 6</td>
+            </tr>
+            <colgroup>
+              <col style="background:red">
+              <col span="2" style="background:yellow">
+            </colgroup>
+          </table>
+
+
+
+</body>
+</html>
