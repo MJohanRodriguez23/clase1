@@ -10,12 +10,6 @@ tr:hover {
 
 /* Estilo por etiqueta */
 
-#Nombre {
-
-    border: 1px double blue;
-    border-radius: 3px;
-    background-color: aqua;
-}
 
 input:valid,
 textarea:valid {

@@ -13,11 +13,12 @@
 
     <h1>FORMULARIOS - TIPO DE INPUTS</h1>
     <label for="Nombre">Nombre:</label>
-    <input type="text" value="MIGUEL RODRIGUEZ" name="Nombre" id="Nombre" class="inputs_class" required readonly >
+    <input type="text" value="" name="Nombre" id="Nombre" class="inputs_class" minlength="5" maxlength="40" required >
     <br>
 
+
     <label for="contraseña">contraseña:</label>
-    <input type="password" value="contraseña"  class="inputs_class" +disabled>
+    <input type="password" value=""  class="inputs_class" minlength="11" required>
     <br>
 
     <label for="archivo">Escoja el archivo</label>
@@ -48,6 +49,8 @@
     <label for="Descripcion">descripcion</label>
     <textarea name="" id="" cols="30" rows="10"></textarea>
     <br>
+
+    <button>enviar</button>
 
 </body>
 </html>
