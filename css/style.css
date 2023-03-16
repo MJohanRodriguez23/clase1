@@ -17,3 +17,13 @@ tr:hover {
     background-color: aqua;
 }
 
+input:valid,
+textarea:valid {
+    background: green;
+}
+
+input:invalid,
+textarea:invalid {
+    background: red;
+}
+
